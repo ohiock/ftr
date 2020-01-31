@@ -16,15 +16,14 @@ Generate .js files to be executed
 Run the application
 
 #### Technical decisions
-- app was built with boilerplate project I found on [GitHub](https://github.com/jsynowiec/node-typescript-boilerplate)
+- App was built with boilerplate project I found on [GitHub](https://github.com/jsynowiec/node-typescript-boilerplate)
 - I'm leveraging `readline` to handle inputs in the console
 - `bignumber.js` was pulled in to make working with potentially large numbers easier
-- Testing was done using Jest
+- Testing was done using `Jest`
 
 #### Notes
 - Went with a console app as this seemed like the most straight forward approach
-- Numbers are tracked in a "map" with the key being the number and the value being the frequency
-- They're sorted on the fly using `.sorted`, so this does the job but could be improved
+- Numbers are sorted on the fly using `.sorted` and tracked in a "map" with the key being the number and the value being the frequency
 - Fibonacci logic is just a calculation executed on each input
 - Worth noting that there is no input validation so the app could certainly be abused
 
